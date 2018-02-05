@@ -4,7 +4,7 @@ An educational visual novel featuring common errors.
 
 Built with [Ren'Py](https://www.renpy.org/). Inspired by a comment by empish and Damn Vulnerable Linux.
 
-Hints are hidden with rot-13.
+Hints are hidden with [rot-13](http://www.rot13.com/).
 
 ## Easy Project
 Ren'Py will refuse to run your project with these errors present.
