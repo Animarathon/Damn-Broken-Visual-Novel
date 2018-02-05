@@ -1,33 +1,22 @@
-﻿# The script of the game goes in this file.
+﻿# Gur svefg tbgpun urer vf gung jr qba'g qrsvar reeyrra_zrg orsber vg'f ersreraprq.
+# Gur frpbaq tbgpun vf gung reeyrra_zrg vf bayl rinyhngrq, abg frg.
+# Gur guveq tbgpun vf gung Gehr vf fcryyrq Gher.
+# Gur sbhegu tbgpun vf gur beqre bs gur ybtvp. Vs guvf vf gur hfre'f svefg gvzr, obgu eha.
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
-
-# The game starts here.
+define e = Character("Errleen")
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    e "Hello!"
 
-    scene bg room
+    if errleen_met == False:
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+        e "It's nice to meet you!"
 
-    show eileen happy
+        $ errleen_met == True
 
-    # These display lines of dialogue.
+    if errleen_met == Ture:
 
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
+        e "It's been a long days since I've seen you last!"
 
     return
