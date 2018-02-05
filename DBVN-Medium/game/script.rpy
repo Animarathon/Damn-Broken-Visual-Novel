@@ -17,6 +17,6 @@ label start:
 
     if errleen_met == Ture:
 
-        e "It's been a long days since I've seen you last!"
+        e "It's been a long time since I've seen you last!"
 
     return
